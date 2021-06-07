@@ -1,0 +1,378 @@
+/* 
+font-family: 'Alfa Slab One', cursive;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Montserrat', sans-serif;
+ */
+
+
+ *{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-image: url(../images/bannar.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 90vh;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color:#573b1e;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+    font-size: 18px;
+    padding-left: 11px;
+}
+
+
+.banner_content{
+
+position: relative;
+}
+
+.banner_content p{
+    
+text-transform: uppercase;
+display: inline-block;
+border: 2px dashed #3d2514;
+padding: 4px 9px;
+color: #3d2514;
+letter-spacing: 1px;
+font-family: 'Bebas Neue', cursive;
+font-weight: 400;
+font-size: 18px;
+
+}
+
+.banner_content h1{
+    
+font-family: 'Alfa Slab One', cursive;
+    
+text-shadow: 4px 4px 2px #fee8bc;
+    
+letter-spacing: 3px;
+    
+font-size: 100px;
+    
+color: #3d2514;
+}
+
+.banner_content h4{
+    font-family: 'Alfa Slab One', cursive;
+    text-shadow: 4px 4px 2px #fee8bc;
+    letter-spacing: 3px;
+    font-size: 50px;
+    color: #3d2514;
+}
+
+.p_sticker{
+    background: red;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    padding: 20px;
+    color: #fff;
+    border: 2px dashed #fff;
+    position: absolute;
+    top: 81%;
+    left: 59%;
+}
+
+.p_sticker h3{
+    
+}
+
+.p_sticker sup{
+    
+}
+
+.p_sticker p{
+    
+font-size: 19px;
+    
+padding-left: 5px;
+    
+text-transform: uppercase;
+}
+.mp_burger{
+
+position: relative;
+}
+
+.mp_burger_text{
+
+position: absolute;
+
+top: 5%;
+
+left: 5%;
+
+color: #fff;
+}
+
+.mp_burger_text p{
+    font-family: 'Bebas Neue', cursive;
+    text-transform: uppercase;font-size: 23px;
+}
+
+.mp_burger_text p b{
+    text-transform: uppercase;font-size: 35px;letter-spacing: 2px;
+}
+
+.mfmt_burger{
+
+position: relative;
+}
+
+.mfmt_burger_text{
+
+font-family: 'Bebas Neue', cursive;
+
+color: #fff;
+
+position: absolute;
+
+top: 6%;
+
+left: 5%;
+}
+
+.mfmt_burger_text p{
+    
+font-size: 20px;
+    
+letter-spacing: 1px;
+}
+.mfmt_burger_text b{
+    
+letter-spacing: 2px;
+    
+font-size: 45px;
+    
+font-weight: 400;
+}
+
+.heading{
+}
+
+.heading h5{
+
+background: #ffc045;
+
+display: inline-block;
+color: #3d2514;
+text-transform: uppercase;
+
+padding: 8px 16px;
+
+font-family: 'Bebas Neue', cursive;
+}
+
+.heading h1{
+
+text-transform: uppercase;
+
+color: #3d2514;
+font-family: 'Alfa Slab One', cursive;
+
+padding: 15px;
+
+font-size: 41px;
+}
+
+.heading p{
+    color: #3d2514;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.lorem_ifsum{
+
+}
+
+.lorem_ifsum h1{
+    color: #3d2514;
+    font-family: 'Bebas Neue', cursive;
+
+}
+
+.lorem_ifsum p{
+    color: #3d2514;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.btn_order{
+    background: #bf2222;
+    color: #fff;
+    border-radius: 0;
+    font-family: 'Alfa Slab One', cursive;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 12px 30px;
+}
+
+.btn_order:hover{
+    color: #fff;
+}
+
+.upcoming_enents{
+
+}
+
+.upcoming_enents h5{
+    color: #3d3d3d;
+    text-transform: uppercase;
+    padding-top: 45px;
+}
+
+.upcoming_enents h1{
+    color: #3d2514;
+    font-family: 'Alfa Slab One', cursive;
+    text-transform: uppercase;
+}
+
+.upcoming_enents p{
+    color: #3d2514;
+    padding-top: 30px;
+}
+
+.upcoming_slid{
+    box-shadow: 9px 10px 20px 0px #dfdfdf;
+    padding: 20px;
+}
+
+    .form_contant{
+
+position: relative;
+
+min-height: 90vh;
+
+}
+
+    .form_contant h5{
+        color: #3d2514;
+        text-transform: uppercase;
+        font-family: 'Bebas Neue', cursive;
+
+    }
+
+    .form_contant h1{
+        color: #3d2514;
+        font-family: 'Alfa Slab One', cursive;
+        text-transform: uppercase;
+
+    }
+
+    form{
+
+margin-top: 9%;
+}
+
+    .o_form input{margin-bottom: 25px;text-transform: uppercase;font-family: 'Bebas Neue', cursive;border: none;border: 1px solid #bebebe;padding: 0;padding: 13px 12px;font-size: 20px;}
+
+    .o_form input[type="submit"]{
+
+background: #bf2222;
+
+color: #fff;
+
+font-size: 25px;
+
+padding: 0;
+
+padding: 6px 0;
+
+}
+
+.form_burger{
+    
+position: absolute;
+    
+top: 0%;
+    
+left: 0%;
+}
+
+.burger_pack{
+
+position: absolute;
+
+right: 0%;
+
+bottom: 0%;
+}
+
+.b_sauce{
+    
+position: absolute;
+    
+left: 16%;
+    
+bottom: 0%;
+}
+
+footer{
+    background-image: url(../images/footer-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 60vh;
+}
+
+.left_content{
+    padding: 60px 0 0 40px;
+}
+
+.left_content img{
+    
+}
+
+.left_content p{
+    color: #fff;
+    padding-top: 35px;
+}
+
+.right_content{
+    padding: 12% 0% 0% 14%;
+    color: #fff;
+    font-family: 'Bebas Neue', cursive;
+    }
+
+.right_content p{
+    
+font-size: 20px;
+}
+
+.right_content p i{
+    padding-right: 20px;
+}
+
+.f_bootom{color: #fff;font-family: 'Montserrat', sans-serif;}
+
+.f_bootom .f_left_content{
+    
+padding: 9% 0 0 40px;
+    
+font-size: 16px;
+}
+
+.f_bootom .f_right_content{
+
+text-align: right;
+
+padding-top: 8%;
+
+font-size: 23px;
+}
+
+.f_bootom .f_right_content i{
+    
+font-size: 35px;
+    
+padding-right: 10px;
+}
